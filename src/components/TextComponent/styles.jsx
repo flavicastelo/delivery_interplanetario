@@ -7,6 +7,6 @@ export const TextStyled = styled.p`
     text-align: ${props => props.align || 'center'};;
     text-decoration: ${props => props.decoration || 'none'};
     @media screen and (max-width: 768px) {
-        font-size: ${props => props.size || '0.8rem'};
+        font-size: ${props => props.sizeResponsive || '0.8rem'};
     }
 `;

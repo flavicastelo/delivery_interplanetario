@@ -5,7 +5,7 @@ import { ContainerLink } from "./styles";
 export default function LinkComponent({ handleClick, text, color = "theme.colors.color3" }) {
   return (
     <ContainerLink onClick={handleClick}>
-      <TextComponent text={text} size='0.6rem' color={color} />
+      <TextComponent text={text} sizeResponsive='0.6rem' size='0.8rem' color={color} />
     </ContainerLink>
   );
 }

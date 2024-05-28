@@ -2,6 +2,7 @@ import { ThemeProvider } from 'styled-components';
 import HomePage from './pages/HomePage';
 import { darkTheme, lightTheme } from './utils/theme';
 import { useState } from 'react';
+import { AppRoutes } from './Routes';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <ThemeProvider theme={isDarkMode? darkTheme : lightTheme}>
-      <HomePage handleClick={handleClick} />
+      <AppRoutes handleClick={handleClick} />
     </ThemeProvider>
 
   )
