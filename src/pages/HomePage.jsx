@@ -1,8 +1,8 @@
 import React from "react";
-import Home from "../components/Home";
+import Register from "../components/Register";
 
 export default function HomePage({handleClick}) {
   return (
-  <Home handleClick={handleClick} />
+  <Register handleClick={handleClick} />
   );
 }

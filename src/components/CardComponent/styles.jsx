@@ -5,7 +5,8 @@ export const ContainerCard = styled.section`
   flex-direction: column;
   justify-content: space-between;
   width: 15rem;
-  height: 10rem;
+  gap: 1rem;
+  min-height: 8rem;
   margin: 1rem 0;
   border-radius: 8px;
   padding: 0.5rem 1rem;

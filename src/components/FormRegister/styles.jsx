@@ -4,12 +4,12 @@ export const ContainerForm = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 100%;
   gap: 1rem;
-  margin-bottom: 1rem;
-  @media screen and (max-width: 768px) {
-        width: 80%;
-    }
+  padding: 0 2rem;
+  @media screen and (max-width: 820px) {
+        /* width: 80%; */
+  }
 `;
 
 export const AuxDiv = styled.div`
@@ -17,7 +17,7 @@ export const AuxDiv = styled.div`
   width: 100%;
   justify-content: space-between;
   gap: 1rem;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 820px) {
         width: 100%;
     }
 `;

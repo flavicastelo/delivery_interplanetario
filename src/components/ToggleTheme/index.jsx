@@ -3,7 +3,7 @@ import { MdLightMode } from "react-icons/md";
 import { Btn } from './styles';
 import { useState } from 'react';
 
-export default function ToggleTheme({handleClick}) {
+export default function ToggleTheme({handleClick, fontSize}) {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const toggleClick = () => {
     setIsDarkMode(!isDarkMode);
@@ -14,9 +14,9 @@ export default function ToggleTheme({handleClick}) {
       handleClick();
     }}>
       {isDarkMode ? (
-        <MdLightMode />
+        <MdLightMode fontSize={fontSize}/>
       ) : (
-        <MdDarkMode />
+        <MdDarkMode fontSize={fontSize}/>
       )}
     </Btn>
   );

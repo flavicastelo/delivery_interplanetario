@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ButtonStyled = styled.button`
-  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +8,7 @@ export const ButtonStyled = styled.button`
   cursor: pointer;
   padding: 0 1rem;
   color: ${(props) => props.theme.colors.color5};
-  width: auto;
+  width: ${props => props.size || 'auto'};
   height: 2rem;
   border-radius: 8px;
   border: none;

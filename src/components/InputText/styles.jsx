@@ -9,9 +9,9 @@ export const InputField = styled.input`
     border-radius: 8px;
     border: 1px solid  ${(props) => props.theme.colors.color5};
     outline: none;
+    font-size: 0.6rem;
     color: ${(props) => props.theme.colors.color5};
-    @media screen and (max-width: 768px) {
-        font-size: 0.6rem;
+    @media screen and (max-width: 820px) {
         width: ${props => props.width || "100%"};
         height: ${props => props.height || "2rem"};
     }

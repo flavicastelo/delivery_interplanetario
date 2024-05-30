@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerBodyAdd = styled.section`
+export const ContainerBodyEdit = styled.section`
   display: flex;
   width: 100dvw;
   height: 100dvh;
@@ -26,7 +26,3 @@ export const TypeSelect = styled.select`
 export const Option = styled.option`
   font-size: 0.6rem;
 `;
-
-export const ContainerMars = styled.div`
-  width: 50%;
-`

@@ -1,8 +1,8 @@
 import React from "react";
-import AddAdress from "../components/AddAdress";
+import AddAddress from "../components/AddAddress";
 
 export default function AddAddressPage({handleClick}) {
   return (
-  <AddAdress handleClick={handleClick} />
+  <AddAddress handleClick={handleClick} />
   );
 }

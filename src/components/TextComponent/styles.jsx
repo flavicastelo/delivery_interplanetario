@@ -6,7 +6,7 @@ export const TextStyled = styled.p`
     font-size: ${props => props.size || '1rem'};
     text-align: ${props => props.align || 'center'};;
     text-decoration: ${props => props.decoration || 'none'};
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 820px) {
         font-size: ${props => props.sizeResponsive || '0.8rem'};
     }
 `;
